@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+
+.about-section-wrapper {
+  background-color: #230329;
+  min-height: 100vh;
+  background-image: url(../../assets/image/dark-leather.png);
+  background-repeat: no-repeat;
+}
+.textTopAbout {
+  color: white;
+  font-family: 'Lobster';
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.textDownAbout {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 23px;
+  color: #ffffff;
+}
+.aboutSectionImg {
+  border-radius: 50px;
+}
+
+.pdTextAbout {
+  padding-top: 14%;
+}
+.element {
+  margin-bottom: 30px;
+}
+hr.short {
+  width: 3%;
+
+  border-top: 3px solid #f02c7b;
+
+  position: absolute;
+  left: 48.8%;
+}
+
+.pdImage3 {
+  padding-top: 200px;
+}
+
+.fullSecondContainer {
+  display: none;
+}
+
+@media (max-width: 1477px) {
+  .textDownAbout {
+    font-size: 18px;
+  }
+  .element img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1244px) {
+  .textDownAbout {
+    font-size: 15px;
+  }
+  .element img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 998px) {
+  .textDownAbout {
+    font-size: 12px;
+  }
+  .element img {
+    width: 150px;
+  }
+  .pdImage3 {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 793px) {
+  .textDownAbout {
+    font-size: 13px;
+  }
+  .element img {
+    width: 130px;
+  }
+  .pdImage3 {
+    padding-top: 150px;
+  }
+  .about-section-wrapper {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .textDownAbout {
+    font-size: 10px;
+  }
+  .element img {
+    width: 130px;
+  }
+  .pdImage3 {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  .textDownAbout {
+    font-size: 8px;
+  }
+  .element img {
+    width: 110px;
+  }
+  .pdImage3 {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 575px) {
+  .textDownAbout {
+    font-size: 15px;
+  }
+  .element img {
+    width: 200px;
+  }
+  .pdImage3 {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 444px) {
+  .fullFirstContainer {
+    display: none;
+  }
+  .fullSecondContainer {
+    display: block;
+  }
+}
+
+/* @media (max-width: 442px) {
+  .textDownAbout {
+    font-size: 16px;
+    text-align: center;
+  }
+  .element img {
+    width: 150px;
+  }
+  .pdImage3 {
+    padding-top: 150px;
+  }
+} */

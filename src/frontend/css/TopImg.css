@@ -1,0 +1,98 @@
+.TopImgWrapper {
+  background-image: url('../../assets/image/topHeaderImage.jpg');
+  background-size: 100%;
+  height: 77vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.divEmpty {
+  height: 60%;
+}
+.tableModal {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1544px) {
+  .TopImgWrapper {
+    height: 30vmax;
+  }
+}
+
+@media screen and (max-width: 1224px) {
+  .TopImgWrapper {
+    height: 28vmax;
+  }
+  .divEmpty {
+    height: 40%;
+  }
+  .btnMy {
+    font-size: 10px;
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .TopImgWrapper {
+    height: 25vmax;
+  }
+  .divEmpty {
+    height: 30%;
+  }
+  .btnMy {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .TopImgWrapper {
+    height: 20vmax;
+  }
+
+  .divEmpty {
+    height: 20%;
+  }
+  .btnMy {
+    font-size: 10px;
+    width: 270px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .TopImgWrapper {
+    height: 15vmax;
+  }
+  .divEmpty {
+    height: 0%;
+  }
+  .btnMy {
+    font-size: 8px;
+    width: 180px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .TopImgWrapper {
+    height: 15vmax;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .TopImgWrapper {
+    height: 15vmax;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .tableModal {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .tableModal {
+    padding-top: 10px;
+  }
+}

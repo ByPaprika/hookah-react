@@ -1,0 +1,53 @@
+.wrapperMenuPage {
+  background-color: #160319;
+  background-image: url('../../../assets/image/dark-leather.png');
+  background-position: center;
+}
+.topTextMenu {
+  color: white;
+  font-size: 40px;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.liMenuItems a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Lobster';
+}
+.liMenuItems li {
+  list-style-type: none;
+}
+/* listGroup css */
+.list-group {
+  border: solid 3px rgb(88, 1, 88);
+  border-radius: unset;
+}
+.list-group-item {
+  border: unset;
+}
+.list-group-horizontal > .list-group-item + .list-group-item {
+  border-radius: unset;
+}
+.list-group-horizontal > .list-group-item:first-child {
+  border-radius: unset;
+}
+
+.list-group-item {
+  background-color: rgb(58, 2, 58);
+}
+/* listGroup end css */
+
+.activeMenuItem {
+  background-color: rgb(88, 1, 88);
+}
+
+.img-thumbnail {
+  background-color: rgb(23, 0, 26);
+  border: 20px solid rgb(88, 1, 88);
+}
+
+@media screen and (max-width: 767px) {
+  .list-group-horizontal {
+    flex-direction: column;
+  }
+}

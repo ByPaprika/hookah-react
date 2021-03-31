@@ -1,0 +1,116 @@
+.wrapperAdminPage {
+  min-height: 60vh;
+  background-color: #290230;
+
+  background-image: url(../../assets/image/dark-leather.png);
+  background-position: top center;
+}
+.form-registration {
+  background: #f1f1f1;
+  width: 360px;
+  height: 380px;
+  padding: 80px 40px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+.form-registration h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.btxt {
+  position: relative;
+  margin: 30px 0;
+}
+
+.btxt input {
+  font-size: 15px;
+  color: #333;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0 5px;
+  height: 40px;
+}
+.btxt span::before {
+  content: attr(data-placeholder);
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #000000;
+  transform: translateY(-50);
+  z-index: -1;
+  transition: 0.5s;
+}
+.btxt span::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  transition: 0.5s;
+}
+.focus + span::before {
+  top: -5px;
+}
+.focus + span::after {
+  width: 100%;
+}
+.tbtn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-image: linear-gradient(120deg, #3498db, #8e44ad, #3498db);
+  text-align: center;
+  background-size: 200%;
+  display: block;
+  background-color: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.tbtn:hover {
+  background-position: right;
+}
+
+.formBtn2 {
+  text-align: center;
+}
+
+.form-registration-none {
+  display: none;
+}
+
+.adminContent-none {
+  display: none;
+}
+
+.adminContent {
+  background-color: #fff;
+}
+
+.tHeader th {
+  text-align: center;
+}
+
+.tContent tr td {
+  text-align: center;
+}
+
+.adminTools .tools {
+  float: right;
+}
+
+.separatorAdminPage {
+  background-color: rgb(0, 0, 0);
+  background-image: none;
+  height: 100px;
+}
+
+.topTextInfo {
+  background-color: #290230;
+  color: white;
+  font-family: Roboto;
+}

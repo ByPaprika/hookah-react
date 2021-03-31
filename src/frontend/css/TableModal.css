@@ -1,0 +1,147 @@
+#btnClose {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  animation: 1s linear 0s normal none running rot;
+  -webkit-animation: 1s linear 0s normal none running rot;
+}
+#transition-modal-title {
+  padding-top: 25px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+.modalConfirmTopText {
+  text-align: center;
+}
+.modalConfirmDownText {
+  text-align: center;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.btn2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: purple;
+  background: transparent;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 5px 45px;
+  margin-bottom: 15px;
+
+  cursor: pointer;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  border: 1px solid purple;
+}
+.btn2:hover {
+  background: purple;
+  color: #090000;
+  border-color: purple;
+}
+
+.priceInfo {
+  color: grey;
+}
+
+.btn_priceInfo {
+  text-align: center;
+}
+
+.priceInfo:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btnMy {
+  width: 350px;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 16px 35px;
+
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  border: 1px solid #ffffff;
+}
+.btnMy:hover {
+  background: #ffffff;
+  color: #090000;
+  border-color: #ffffff;
+}
+.btnMy.block {
+  display: block;
+  width: 100%;
+}
+
+#tableNotAvailable {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 30px;
+}
+#tableNotAvailableText {
+  text-align: center;
+  font-size: 20px;
+}
+.colLeftTable {
+  text-align: left;
+}
+
+.colRightTable {
+  text-align: right;
+}
+
+/* next prev dots*/
+
+@media screen and (max-width: 767px) {
+  .rowTableModal {
+    flex-direction: column;
+  }
+  .colLeftTable {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .colRightTable {
+    text-align: center;
+  }
+  #checkBox {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .btnMy {
+    font-size: 10px;
+    width: 230px;
+  }
+}

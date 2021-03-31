@@ -1,0 +1,86 @@
+.bm-burger-button {
+  position: fixed;
+
+  width: 40px;
+  height: 30px;
+  right: 5%;
+  top: 30px;
+  z-index: 101;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 50% !important;
+  width: 100% !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background-color: #27052c;
+  background-image: url('../../assets/image/dark-leather.png');
+  background-position: top;
+  padding: 1.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+.menu-item-my {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  /* border: solid 1px white; */
+
+  /* border-top: solid 3px white;
+  border-bottom: solid 3px white; */
+}
+
+/* .menu-item-my > div {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+} */
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

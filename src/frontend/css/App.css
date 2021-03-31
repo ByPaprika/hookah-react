@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-wrapper {
+  width: 100%;
+  padding-top: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #35444d;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #f02c7b;
+}
+
+.burgerMenuContent {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .burgerMenuContent {
+    display: block;
+  }
+}

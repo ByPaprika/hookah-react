@@ -1,0 +1,31 @@
+.event-request-section-wrapper {
+  background-color: #300530;
+  background-image: url('../../assets/image/dark-leather.png');
+  background-position: center;
+  /* background-image: url('../../assets/image/testBackGround.jpg'); */
+}
+
+.topTextRequest {
+  color: white;
+  font-family: 'Lobster';
+  font-size: 50px;
+}
+
+.btnRequest {
+  font-family: 'Lobster';
+}
+
+.uniInput input {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  font-family: serif;
+  border-color: unset;
+  padding: 6px 0 4px 10px;
+  outline: none;
+}
+
+::placeholder {
+  font-size: 0.7em;
+  font-family: 'Comfortaa';
+}

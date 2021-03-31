@@ -1,0 +1,50 @@
+{
+  "tables": [
+    {
+      "name": "sadsad",
+      "phone": "123",
+      "data": "9/201/2021",
+      "time": "18:00",
+      "count": "1",
+      "description": "123123",
+      "id": 3
+    }
+  ],
+  "events": [
+    {
+      "name": "aaaaaaaaaa",
+      "phone": "123123",
+      "email": "123123",
+      "description": "123312",
+      "id": 1
+    },
+    {
+      "name": "asdsad",
+      "phone": "asda",
+      "email": "dsasd",
+      "description": "dasadsads",
+      "id": 2
+    },
+    {
+      "name": "фывфыв",
+      "phone": "выфвфы",
+      "email": "выфвыф",
+      "description": "1",
+      "id": 3
+    }
+  ],
+  "comp": [
+    {
+      "name": "1test12312",
+      "phone": "asdasd",
+      "points": "2123",
+      "id": 1
+    },
+    {
+      "name": "ыфвыфв",
+      "phone": "фвыыфв",
+      "points": "вфыфыв",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+.footerClass {
+  background-image: url(../../assets/image/dark-leather.png);
+  background-color: #27052c;
+  padding-top: 10px;
+
+  color: white;
+}
+
+.social a {
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+}
+.social a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.menuFooter li {
+  list-style-type: none;
+  color: white;
+  font-family: 'Playfair Display SC', serif;
+}
+.menuFooter li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menuFooter li a:hover {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  font-size: 18px;
+  color: red;
+}
+
+.headlineText {
+  font-family: 'Helvetica Neue';
+  color: red;
+  font-size: 35px;
+}
+
+.textAdress {
+  font-family: 'Playfair Display SC', serif;
+}
+
+.hookanFooterText {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 15px;
+  color: rgb(173, 173, 173);
+}
+.mediaAlign {
+  text-align: center;
+}
+
+@media screen and (max-width: 568px) {
+  .pdCol {
+    padding-bottom: 30px;
+  }
+  .mediaAlign {
+    text-align: left;
+  }
+}

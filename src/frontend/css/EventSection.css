@@ -1,0 +1,25 @@
+.event-section-wrapper {
+  background-color: #ffffff;
+  background-position: center;
+}
+
+.topTextEvent {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Helvetica Neue';
+}
+
+.topTextItem {
+  font-weight: unset;
+  font-size: 1.5rem;
+}
+
+.redTopTextItem {
+  color: red;
+}
+
+@media screen and (max-width: 992px) {
+  .topTextEvent {
+    font-size: 1rem;
+  }
+}

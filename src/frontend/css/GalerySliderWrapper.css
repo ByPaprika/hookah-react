@@ -1,0 +1,26 @@
+.topSlider-wrapper {
+  background-color: #2b0933;
+}
+
+.topSlider-wrapper img {
+  height: 800px;
+  min-width: 100%;
+}
+
+.carousel-caption {
+  padding-bottom: 6%;
+}
+
+@media screen and (max-width: 810px) {
+  .topSlider-wrapper img {
+    height: 520px;
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .topSlider-wrapper img {
+    height: 320px;
+    min-width: 100%;
+  }
+}
